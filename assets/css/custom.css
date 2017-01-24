@@ -41,8 +41,17 @@ p {
 	margin: 0 0 15px;
 }
 
+button, input, .btn, a.btn {
+	-webkit-font-smoothing: antialiased; 
+	text-rendering: optimizeLegibility;
+	color: white;
+}
+
 .btn {
 	font-weight: bold;
+}
+
+#hero .btn {
 	position: relative;
 	top: 60px;
 }
@@ -50,6 +59,10 @@ p {
 .btn-danger {
 	background-color: #dd5638;
 	border-color: #d95131;
+}
+
+img {
+	max-width: 100%;
 }
 
 #hero {
@@ -115,4 +128,18 @@ p {
 	color: white;
 	font-weight: bold;
 	display: block;
+}
+
+/* === Layout === */
+#optin {
+	background: #3e4249;
+	padding: 20px 0;
+	color: white;
+	-webkit-font-smoothing: antialiased; 
+	text-rendering: optimizeLegibility;
+	font-size: 1.2em;
+}
+
+#optin p {
+	margin: 7px 0 0 0; 
 }
