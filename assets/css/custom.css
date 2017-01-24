@@ -1,0 +1,37 @@
+/* COLOR REFERENCES
+
+Green:		#79b044
+Salmon: 	#dd5638
+Blue Gray:	#3e4249
+
+*/
+
+/* === General === */
+body {
+	margin-top: 50px;
+	font-family: 'Raleway', Helvetica, sans-serif;
+	font-size: 16px;
+	background: url('../img/tile.jpg') top left repeat;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	-webkit-font-smoothing: antialiased; 
+	text-rendering: optimizeLegibility;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h1, h2 {
+	margin: 0 0 40px;
+}
+
+h3 {
+	margin: 20px 0;
+}
+
+h4 {
+	font-size: 18px;
+}
